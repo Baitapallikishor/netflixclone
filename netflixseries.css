@@ -1,0 +1,126 @@
+*{
+margin:0px;
+padding:0px;
+border-left-style: none;
+}
+
+body{
+background-color: #191818;
+
+}
+
+.netflix-logo{
+    margin-right: 350px;
+    justify-content: end;
+    margin-left: 15px;
+    padding:0px;
+}
+.sign-up{
+    display:flex;
+    justify-content: end;
+    
+
+    
+}
+    
+.sign-up .Join-now{
+    background-color: rgb(248, 10, 30);
+    padding:10px 20px 10px 20px;
+    border-radius: 15px;
+    border: 2px solid red;
+    margin-right: 20px;
+    color:white;
+}
+
+.sign-up .Sign-In{
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    
+    border: 2px solid black;
+    
+}
+
+
+
+.banner{
+    display: flex;
+    
+}
+.header .head-title{
+    margin-top: 14%;
+    
+}
+
+.header .content{
+    color:aliceblue;
+    margin-top: 4%;
+    margin-bottom: 9%;
+}
+.content h1{
+    font-size: 39px;
+    margin-bottom: 17px;
+    font-weight: 200px;
+
+}
+
+.content #one{
+    color:dimgrey;
+    margin-bottom: 17px;
+}
+.content p{
+    margin-right: 70%;
+    margin-bottom: 17px;
+}
+.content h3 span{
+        color:dimgrey;
+}
+
+
+.ending-box{
+    
+    padding:10px  20px ;
+    background-color:rgb(39, 36, 36);
+    color:white;
+    display: flex;
+    margin-right: 30%;
+    box-shadow: 40px;
+
+
+
+}
+.ending-box img{
+    margin-right: 20px;
+}
+
+.ending-box h3{
+         margin-right: 60px;
+         margin-top: 20px;
+}
+.ending-box .Join-now{
+    background-color: red;
+    
+    border: 2px solid red;
+    justify-content: end;
+    margin-left: 50%;
+    color: azure;
+}
+
+.ending{
+    margin-top: 6%;
+}
+.ending  p{
+    text-align: center;
+    color:rgb(174, 169, 169);
+    padding:20px;
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+    .smallscreen{
+       width:100px;
+    }
+    
+   }
+

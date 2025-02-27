@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(70, 69, 69);
+   
+
+    width: 100%;
+    height: 100%;
+    background:linear-gradient( to bottom ,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f562aaf4-5dbb-4603-a32b-6ef6c2230136/dh0w8qv-9d8ee6b2-b41a-4681-ab9b-8a227560dc75.jpg/v1/fit/w_828,h_466,q_70,strp/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvZjU2MmFhZjQtNWRiYi00NjAzLWEzMmItNmVmNmMyMjMwMTM2XC9kaDB3OHF2LTlkOGVlNmIyLWI0MWEtNDY4MS1hYjliLThhMjI3NTYwZGM3NS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.LOYKSxIDqfPwWHR0SSJ-ugGQ6bECF0yO6Cmc0F26CQs");
+    background-size: cover;
+    background-position: center;
+    left:0;
+    top:0;
+
+    
+
+}
+
+nav{
+    margin:10px 0px 5% 30px
+}
+.sign-up-header{
+    margin-top: 23%;
+    margin-left: 50%;
+    width: 430px;
+    padding:50px;
+    border-radius: 4px;
+    background: rgba(0,0,0,0.7);
+    transform: translate(-50%,-50%);
+    position: fixed;
+
+    
+}
+.sign-up-header img{
+    margin-bottom: 10px;
+    align-items: center;
+    margin-left: 40%;
+    
+}
+
+ .sign-in h2{
+    color:aliceblue;
+    font-size: 2rem;
+ }
+ .sign-up-header form{
+    margin: 25px 0 65px;
+ }
+ form .form-control{
+    height: 50px;
+    margin-top: 20px;
+ }
+.form-control input{
+background-color: rgb(0,0,0,0.1);
+padding:15px 50px;
+color:beige;
+font-size: 17px;
+
+border-radius: 3px;
+
+}
+
+input:active{
+    border-color: brown;
+
+}
+a {
+    outline: none;
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Keeps the text color unchanged */
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+
+ .form-control{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border:none;
+    font-size: 1rem;
+    border-radius: 1px;
+ }
+ .sign-button h2{
+    padding:10px 110px ;
+    background-color: rgb(241, 8, 8);
+    margin-top: 4px;
+    border-radius: 7px;
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 2px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .sign-button button{
+    padding:10px 110px ;
+    background-color: rgb(241, 8, 8);
+    margin-top: 4px;
+    border-radius: 7px;
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 2px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .sign-button span{
+    color:beige;
+    margin-left: 40%;
+    margin-top: 1px;
+    
+ }
+
+.sign-button .sign-in-code{
+    color:antiquewhite;
+padding:10px 60px;
+background-color: rgb(40, 38, 38);
+margin-top: 10px;
+}
+
+.sign-button a{
+    color:white;
+    text-align: center;
+    margin-left: 32%;
+    
+}
+.remember-me{
+    color:white;
+     justify-content: space-between;
+     margin-bottom: 2px;
+}
+.remember-me p{
+    font-size: 20px;
+    margin-top: 2px;
+    color:rgb(94, 95, 95)
+
+}
+.remember-me a{
+    color:white;
+}
+a:active{
+    color:rgb(224, 11, 11)
+}
+small{
+    color:rgb(116, 115, 115);
+    
+
+}

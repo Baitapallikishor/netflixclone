@@ -1,0 +1,240 @@
+*{
+    margin:0px;
+    padding:0px;
+box-sizing: border-box;
+}
+body{
+    background-color: rgb(23, 19, 19);
+
+}
+.navbar{
+    background-color: #181818;
+    
+    align-items: end;
+    justify-content: end;
+}
+
+
+.netflix-logo{
+    
+    justify-content: end;
+    margin-left: 15px;
+    padding:0px;
+
+}
+ .navbar .sign-up {
+    display: flex;
+      justify-content: end;
+      align-items: end;
+      align-content: end;
+      justify-content: space-between;
+      
+       
+
+    
+}
+    
+.sign-up .Join-now{
+    background-color: rgb(248, 10, 30);
+    padding:10px 20px 10px 20px;
+    border-radius: 15px;
+    border: 2px solid red;
+    margin-right: 20px;
+    color:white;
+}
+
+.sign-up .Sign-In{
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    
+    border: 2px solid black;
+    
+}
+    
+.head .container{
+    color:white;
+    font-size: 20px;
+    font-weight: 400px;
+    font-style: inherit;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.head .container h1{
+      margin-bottom:25px;
+}
+.head .container h3{
+    margin-top: 40px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 20px;
+    font-style: normal;
+
+}
+ section #two{
+ color:white;
+        margin-top: 40px;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: 20px;
+        font-style: normal;
+        margin-left: 20px;
+     }
+ .banner .posters{
+    display: flex;
+    justify-content: left;
+    overflow: auto;
+    position: relative;
+    scroll-behavior: smooth;
+}
+.banner ::-webkit-scrollbar{
+    display:none;
+}
+    
+
+.banner .posters .new{
+    margin-left: 22px;
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+.banner .posters h3{
+    color:white;
+    align-items: center;
+    justify-content: center center;
+}
+
+.content{
+    margin-top: 20px;
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(100deg, #181818 0, hsla(0, 0%, 9%, .987) 2.7%, hsla(0, 0%, 9%, .951) 10%, hsla(0, 0%, 9%, .896) 5%, hsla(0, 0%, 9%, .825) 100%, hsla(0, 0%, 9%, .741) 70%, hsla(0, 0%, 9%, .648) 70%, hsla(0, 0%, 9%, .55) 80%, hsla(0, 0%, 9%, .45) 1%, hsla(0, 0%, 9%, .352) 1%, hsla(0, 0%, 9%, .259) 70%, hsla(0, 0%, 9%, .175) 1%, hsla(0, 0%, 9%, .104) 50%, hsla(0, 0%, 9%, .049) 16.9%, hsla(0, 0%, 9%, .013) 18.38%, hsla(0, 0%, 9%, 0) 20%),url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f562aaf4-5dbb-4603-a32b-6ef6c2230136/dh0w8qv-9d8ee6b2-b41a-4681-ab9b-8a227560dc75.jpg/v1/fit/w_828,h_466,q_70,strp/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvZjU2MmFhZjQtNWRiYi00NjAzLWEzMmItNmVmNmMyMjMwMTM2XC9kaDB3OHF2LTlkOGVlNmIyLWI0MWEtNDY4MS1hYjliLThhMjI3NTYwZGM3NS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.LOYKSxIDqfPwWHR0SSJ-ugGQ6bECF0yO6Cmc0F26CQs");
+  background-size: cover;
+  background-position: cennter;
+
+  padding: 10px 8%;
+  position: relative;
+  box-shadow: 20px;
+
+  border-radius: 5px;
+ 
+    
+}
+.content .text{
+    color:white;
+    
+}
+.content .text h2{
+    font-size: 40px;
+    align-items: center;
+    margin-top: 300px;
+    text-align: center;
+    font-weight: 700;
+    font-style: unset;
+}
+.content .text p{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 17%;
+    margin-right: 20%;
+}
+.content .text .Join-now{
+    background-color: rgb(237, 19, 19);
+    padding:10px 50px;
+    border: 2px solid red;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    cursor: pointer;
+    justify-content: center;
+    margin-left: 40%;
+    outline: none;
+
+}
+.content #text{
+   
+    cursor: pointer;
+    margin-top: 100px;
+    color: black;
+}
+
+
+.footer {
+    background-color: #181818;
+    padding: 40px 10%;
+    color:white;
+    font-size: 14px;
+}
+
+.footer h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.col a {
+    display: block;
+    text-decoration: none;
+    color:white;
+    margin-bottom: 10px;
+    transition: color 0.3s;
+}
+
+.col a:hover {
+    color: #ffffff;
+}
+
+.language {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #757575;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.language img {
+    width: 12px;
+    height: 12px;
+}
+
+.Netflix-india {
+    margin-top: 20px;
+    color: #757575;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .col {
+        text-align: center;
+    }
+    
+    .language {
+        display: block;
+        margin: 10px auto;
+    }
+}
+
+----------------------media-queries-for-small-screen---------------
